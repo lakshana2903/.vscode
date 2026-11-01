@@ -8,7 +8,7 @@ def add_student():
 def view_students():
     if not students:
         print("No student records found.")
-    return
+        return
     print("\n--- Student Records ---")
     for roll, data in students.items():
         print("Roll No:", roll, "| Name:", data["Name"], "| Department:", data["Department"])
