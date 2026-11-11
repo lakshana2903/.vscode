@@ -18,5 +18,4 @@ print("\n--- Records from CSV ---")
 with open("students.csv", "r") as file:
     reader = csv.DictReader(file)
     for row in reader:
-        print(row["RollNo"], row["Name"],
-        row["Department"], row["Mark"])
+        print(row["RollNo"], row["Name"], row["Department"], row["Mark"])
